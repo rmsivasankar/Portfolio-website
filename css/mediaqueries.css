@@ -100,7 +100,201 @@
 
 /* Media Queries for Tablet and Desktop Screens */
 @media only screen and (min-width: 768px) {
+    .home {
+    /* Your existing styles */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    
+    font-size: 5rem;
+    margin: 20px;
+    color: cyan; 
+}
+
+.subheader {
+    
+    font-size: 4rem;
+    margin: 20px;
+    color: white; 
+}
+
+.nav li {
+    
+    margin: 10px;
+    font-size: 40px;
+}
+
+/* About Section */
+.about-heading {
+    font-size: 3rem;
+    font-size: 5rem;
+    color: greenyellow; 
+}
+
+.aboutme {
+    font-size: 1.5rem; 
+    padding: 5%;
+    padding-top: 5%;
+    font-size: 3rem;
+}
+
+.aboutme li {
+    margin-top: 2%;
+    list-style: none;
+}
+
+/* Projects Section */
+.card-container {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: column; 
+    margin-top: 5vh; 
+    margin-bottom: 5vh; 
+}
+
+.card {
+    /* Your existing styles */
+    width: 80%; 
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px; 
+}
+
+/* Skills Section */
+.skills {
+    width: 80%; 
+    max-width: none; 
+    margin: 5vh auto; 
+}
+
+/* Contact Section */
+.contact-section {
+    /* Your existing styles */
+    flex-direction: column; 
+    align-items: center; 
+    margin: 10vh 0; 
+}
+
+.contact-item {
+    margin: 5px; 
+}
+
+.contact-item img {
+    width: 30px; 
+}
+
+.contact-item p {
+    font-size: 20px; 
+}
+
 }
 
 @media only screen and (min-width: 1024px) {
+    .home {
+    /* Your existing styles */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    
+    font-size: 5rem;
+    margin: 20px;
+    color: cyan; 
+}
+
+.subheader {
+    
+    font-size: 4rem;
+    margin: 20px;
+    color: white; 
+}
+
+.nav li {
+    
+    margin: 10px;
+    font-size: 40px;
+}
+
+/* About Section */
+.about-heading {
+    font-size: 3rem;
+    font-size: 5rem;
+    color: greenyellow; 
+}
+
+.aboutme {
+    font-size: 1.5rem; 
+    padding: 5%;
+    padding-top: 5%;
+    font-size: 3rem;
+}
+
+.aboutme li {
+    margin-top: 2%;
+    list-style: none;
+}
+
+/* Projects Section */
+.card-container {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: column; 
+    margin-top: 5vh; 
+    margin-bottom: 5vh; 
+}
+
+.card {
+    /* Your existing styles */
+    width: 80%; 
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px; 
+}
+
+/* Skills Section */
+.skills {
+    width: 80%; 
+    max-width: none; 
+    margin: 5vh auto; 
+}
+
+/* Contact Section */
+.contact-section {
+    /* Your existing styles */
+    flex-direction: column; 
+    align-items: center; 
+    margin: 10vh 0; 
+}
+
+.contact-item {
+    margin: 5px; 
+}
+
+.contact-item img {
+    width: 30px; 
+}
+
+.contact-item p {
+    font-size: 20px; 
+}
+
 }
