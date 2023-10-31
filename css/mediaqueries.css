@@ -11,109 +11,96 @@
 }
 
 .header {
-    /* Your existing styles */
+    
     font-size: 5rem;
     margin: 20px;
-    color: cyan; /* Adjust font size for smaller screens */
+    color: cyan; 
 }
 
 .subheader {
-    /* Your existing styles */
+    
     font-size: 4rem;
     margin: 20px;
-    color: white; /* Adjust font size for smaller screens */
+    color: white; 
 }
 
 .nav li {
-    /* Your existing styles */
+    
     margin: 10px;
     font-size: 40px;
-    /* Adjust margin for smaller screens */
 }
 
 /* About Section */
 .about-heading {
-    /* Your existing styles */
     font-size: 3rem;
     font-size: 5rem;
-    color: greenyellow; /* Adjust font size for smaller screens */
+    color: greenyellow; 
 }
 
 .aboutme {
-    /* Your existing styles */
-    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    font-size: 1.5rem; 
     padding: 5%;
     padding-top: 5%;
     font-size: 3rem;
- /* Adjust padding for smaller screens */
 }
 
 .aboutme li {
-    /* Your existing styles */
     margin-top: 2%;
     list-style: none;
- /* Adjust margin for smaller screens */
 }
 
 /* Projects Section */
 .card-container {
-    /* Your existing styles */
     margin-top: 15vh;
     display: flex;
     justify-content: space-around; 
-    flex-direction: column; /* Change to a column layout for smaller screens */
-    margin-top: 5vh; /* Adjust margin for smaller screens */
-    margin-bottom: 5vh; /* Adjust margin for smaller screens */
+    flex-direction: column; 
+    margin-top: 5vh; 
+    margin-bottom: 5vh; 
 }
 
 .card {
     /* Your existing styles */
-    width: 80%; /* Adjust card width for smaller screens */
+    width: 80%; 
     margin: 10px auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     border: 1px solid #ccc;
     border-radius: 8px;
-    padding: 16px; /* Center-align cards */
+    padding: 16px; 
 }
 
 /* Skills Section */
 .skills {
-    /* Your existing styles */
-    width: 80%; /* Adjust width for smaller screens */
-    max-width: none; /* Allow full width for smaller screens */
-    margin: 5vh auto; /* Adjust margin for smaller screens */
+    width: 80%; 
+    max-width: none; 
+    margin: 5vh auto; 
 }
 
 /* Contact Section */
 .contact-section {
     /* Your existing styles */
-    flex-direction: column; /* Change to a column layout for smaller screens */
-    align-items: center; /* Center-align items */
-    margin: 10vh 0; /* Adjust margin for smaller screens */
+    flex-direction: column; 
+    align-items: center; 
+    margin: 10vh 0; 
 }
 
 .contact-item {
-    /* Your existing styles */
-    margin: 5px; /* Adjust margin for smaller screens */
+    margin: 5px; 
 }
 
 .contact-item img {
-    /* Your existing styles */
-    width: 30px; /* Adjust image size for smaller screens */
+    width: 30px; 
 }
 
 .contact-item p {
-    /* Your existing styles */
-    font-size: 20px; /* Adjust font size for smaller screens */
+    font-size: 20px; 
 }
 
 /* Media Queries for Tablet and Desktop Screens */
 @media only screen and (min-width: 768px) {
-    /* Add styles specific to tablet screens */
 }
 
 @media only screen and (min-width: 1024px) {
-    /* Add styles specific to desktop screens */
 }
