@@ -12,17 +12,15 @@
 
 .header {
     /* Your existing styles */
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 20px;
-    font-size: 8rem;
     color: cyan; /* Adjust font size for smaller screens */
 }
 
 .subheader {
     /* Your existing styles */
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 20px;
-    font-size: 6rem;
     color: white; /* Adjust font size for smaller screens */
 }
 
