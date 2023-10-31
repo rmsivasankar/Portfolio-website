@@ -12,14 +12,14 @@
 
 .header {
     /* Your existing styles */
-    font-size: 3rem;
+    font-size: 5rem;
     margin: 20px;
     color: cyan; /* Adjust font size for smaller screens */
 }
 
 .subheader {
     /* Your existing styles */
-    font-size: 2rem;
+    font-size: 4rem;
     margin: 20px;
     color: white; /* Adjust font size for smaller screens */
 }
