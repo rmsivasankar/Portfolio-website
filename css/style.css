@@ -64,7 +64,7 @@
 .aboutme {
     padding: 10%;
     padding-top: 5%;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .aboutme li {
@@ -88,7 +88,7 @@
 }
 
 .card {
-    width: 100px;
+    width: 300px;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 16px;
@@ -185,3 +185,22 @@ button a {
     font-size: 30px;
 }
 
+
+@media only screen and (min-width: 1024px) {
+    .card {
+        width: 200px;
+        padding: 10px; 
+        margin: 5px; 
+    }
+
+    .card p {
+        font-size: 20px; 
+    }
+
+    img {
+        width: 100%; 
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 5px; 
+    }
+}
